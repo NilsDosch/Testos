@@ -1,0 +1,746 @@
+nav {
+  background-color: #010101;
+  list-style-type: none;
+  margin: auto auto;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  position: fixed;
+
+}
+
+
+
+.logoimheader {
+	float: center;
+	width : 25px;
+}
+	
+	
+.beginn {
+  float: left;
+  text-align: center;
+  width: 470px;
+}
+
+.beginn a {
+	font-size: 48px;
+	color: #fff;
+	text-align: center;
+	padding:15px 10px;
+	font-weight: 700;
+	font-family: "MS Reference Sans Serif";
+	text-decoration: none;
+	text-align: center;
+}
+
+
+.beginn:hover {
+	background-color: #010101;
+}
+
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+
+.dropdown .dropbtn {
+	font-size: 18px;
+	border: none;
+	outline: none;
+	color: black;
+	padding-top: 33px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0; 
+}
+	
+nav a:hover, .dropdown:hover .dropbtn {
+	background-color: #010101;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #333333;
+	min-width: 160px;
+	z-index:1;
+}
+
+.dropdown-content a{
+	float: none;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 49px;
+	padding-right: 49px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover{
+	background-color: #010101;
+}
+
+.dropdown:hover .dropdown-content{
+	display: #010101;
+}
+
+h1 {
+	color: none;
+	font-size: 36px;
+	font-family: "Britannic";
+}
+
+h2 {
+  font-size:40px;
+  font-family: "Century Schoolbook";
+  color: #5a7bdd;
+  width: 850px;
+  height: 300px;
+  background-color: black;
+  text-align: center;
+  margin: 200px auto;
+  padding: 20px 20px 20px 20px;
+  border-radius: 50px;
+}
+
+h3 {
+  font-size:30px;
+  font-family: "Century Schoolbook";
+  color: #ffff00;
+  width: 470px;
+  height: 250px;
+  background-color: none;
+  text-align: center;
+  margin: 400px 60px auto;
+  padding: 20px 20px 20px 20px;
+  border-radius: 50px;
+}
+
+h4 {
+  font-size:30px;
+  font-family: "Century Schoolbook";
+  color: #ffff00;
+  width: 470px;
+  height: 270px;
+  background-color: none;
+  text-align: center;
+  margin-top: 130px;
+  margin-left: auto;
+  margin-right: 80px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 50px;
+}
+
+h5 {
+  font-size:30px;
+  font-family: "Century Schoolbook";
+  color: #ffff00;
+  width: 470px;
+  height: 150px;
+  background-color: none;
+  text-align: center;
+  margin: 550px 80px auto;
+  padding: 20px 20px 20px 20px;
+  border-radius: 50px;
+}
+
+h6 {
+  font-size:30px;
+  font-family: "Century Schoolbook";
+  color: #ffff00;
+  width: 340px;
+  height: 370px;
+  background-color: none;
+  text-align: center;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: 80px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 50px;
+}
+
+.h7 {
+  font-size:30px;
+  font-family: "Century Schoolbook";
+  color: #ffff00;
+  width: 470px;
+  height: 170px;
+  background-color: none;
+  text-align: center;
+  margin: 180px 110px auto;
+  padding: 20px 20px 20px 20px;
+  border-radius: 50px;
+}
+.h8 {
+  font-size:30px;
+  font-family: "Century Schoolbook";
+  color: #ffff00;
+  width: 450px;
+  height: 250px;
+  background-color: none;
+  text-align: center;
+  margin-top: -10px;
+  margin-left: auto;
+  margin-right: 450px;
+  margin-bottom: 200px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 50px;
+}
+	
+	.h9{
+ font-size:30px;
+  font-family: "Century Schoolbook";
+  color: #ffff00;
+  width: 470px;
+  height: 200px;
+  background-color: none;
+  text-align: center;
+  margin: 300px 410px auto;
+  padding: 20px 20px 20px 20px;
+  border-radius: 50px;
+}
+
+		
+.bilder {
+	width : 400px; 
+	height : 400px;
+	padding: 10px;
+	
+}
+
+.infotabelle {
+	padding-right: 5px
+	
+}
+
+th, td {
+	border: 1px solid #010101;
+
+}
+
+p {
+	color: white;
+	font-size: 20px;
+	font-family: "Centaur";
+}
+
+body {
+  background-color: #010101;
+}
+
+.backgroundhistory {
+  background-color: #010101;
+  background-image: url("Blitzhistory.png");
+}
+
+.backgroundcapabilities {
+  background-color: #010101;
+  background-image: url("Blitzcapabilities.png");
+}
+
+.backgroundtestos {
+  background-color: #010101;
+  background-image: url("Blitztestos.png");
+  background-attachment: scroll;
+  position: relative;
+}
+
+.backgroundroadmap {
+  margin-bottom: 20px;
+  height: 5000px;
+  background-color: #010101;
+  background-image: url("Blitzroadmap3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-attachment: scroll;
+  position: relative;
+
+}
+
+.testos {
+  font-size:100px;
+  font-family: "Cambria";
+  color: #faed27;
+  width: 550px;
+  height: 140px;
+  background-color: black;
+  text-align: center;
+  margin: 200px auto;
+  padding: 20px auto;
+  border-radius: 50px;
+}
+
+.SizeforQ1 {
+  font-size:70px;
+  font-family: "Cambria";
+  color: #ff2300;
+  width: 330px;
+  height: 180px;
+  background-color: black;
+  text-align: center;
+  margin: 400px  auto 40px auto;
+  padding: 20px 20px;
+  border-radius: 50px;
+}
+
+.Text1 {
+	font-size:45px;
+	background-color: black;
+    width: 975px;
+    height: 780px;
+	color: white;
+	text-align: center;
+    margin: 40px  auto;
+    padding: 25px 25px 25px 25px;
+	font-family: "Cambria" ;
+	border-radius: 50px;
+}
+
+.SizeforQ2 {
+  font-size:70px;
+  font-family: "Cambria";
+  color: #ff2300;
+  width: 400px;
+  height: 180px;
+  background-color: black;
+  text-align: center;
+  margin: 400px  auto 40px auto;
+  padding: 20px 20px;
+  border-radius: 50px;
+}
+
+.Text2 {
+	font-size:45px;
+	background-color: black;
+    width: 975px;
+    height: 320px;
+	color: white;
+	text-align: center;
+    margin: 40px  auto;
+    padding: 25px 25px 25px 25px;
+	font-family: "Cambria" ;
+	border-radius: 50px;
+}
+
+
+
+
+.Banner {
+    position: relative;
+	color: black;
+    background: #f5ff00;
+    width: 100%;
+	padding: 20px 0px;
+    --tw: 19.25rem;
+}
+}
+
+.Banner .BannerText {
+    position: relative;
+}
+
+
+
+.Banner span {
+    font-family: "MS Reference Sans Serif";
+    text-transform: uppercase;
+	font-size: 20px;
+    font-weight: 800;
+    padding: 0px auto;
+    white-space: nowrap;
+    width: var(--tw);
+    text-shadow: var(--tw) 0 currentColor,calc(var(--tw)*2) 0 currentColor,calc(var(--tw)*3) 0 currentColor,calc(var(--tw)*4) 0 currentColor,calc(var(--tw)*5) 0 currentColor,calc(var(--tw)*6) 0 currentColor,calc(var(--tw)*7) 0 currentColor,calc(var(--tw)*8) 0 currentColor,calc(var(--tw)*9) 0 currentColor,calc(var(--tw)*10) 0 currentColor,calc(var(--tw)*11) 0 currentColor,calc(var(--tw)*12) 0 currentColor,calc(var(--tw)*13) 0 currentColor,calc(var(--tw)*14) 0 currentColor,calc(var(--tw)*15) 0 currentColor,calc(var(--tw)*16) 0 currentColor,calc(var(--tw)*17) 0 currentColor,calc(var(--tw)*18) 0 currentColor,calc(var(--tw)*19) 0 currentColor,calc(var(--tw)*20) 0 currentColor,calc(var(--tw)*21) 0 currentColor,calc(var(--tw)*22) 0 currentColor,calc(var(--tw)*23) 0 currentColor,calc(var(--tw)*24) 0 currentColor,calc(var(--tw)*25) 0 currentColor,calc(var(--tw)*26) 0 currentColor,calc(var(--tw)*27) 0 currentColor,calc(var(--tw)*28) 0 currentColor,calc(var(--tw)*29) 0 currentColor,calc(var(--tw)*30) 0 currentColor,calc(var(--tw)*31) 0 currentColor,calc(var(--tw)*32) 0 currentColor,calc(var(--tw)*33) 0 currentColor;
+}
+
+.SizeforFAQ {
+  font-size:70px;
+  font-family: "Cambria";
+  color: #ff2300;
+  width: 200px;
+  height: 80px;
+  background-color: black;
+  text-align: center;
+  margin: 400px  auto 40px auto;
+  padding: 20px 20px;
+
+}
+
+.FAQText {
+	font-size:45px;
+	background-color: black;
+    width: 975px;
+    height: 1220px;
+	color: white;
+	text-align: center;
+    margin: 40px  auto;
+    padding: 25px 25px 25px 25px;
+	font-family: "Cambria" ;
+	border-radius: 50px;
+	text-align: center;
+}
+
+.history {
+  font-size:100px;
+  font-family: "Cambria";
+  color: #faed27;
+  width: 600px;
+  height: 140px;
+  background-color: black;
+  text-align: center;
+  margin: 200px auto;
+  padding: 20px auto;
+  border-radius: 50px;
+}
+
+	.history1{
+ font-size:30px;
+  font-family: "Century Schoolbook";
+  color: #faed27;
+  width: 1400px;
+  height: 130px;
+  background-color: black;
+  text-align: center;
+  margin: 0px auto;
+  padding: 20px 20px 20px 20px;
+  border-radius: 50px;
+}
+
+
+    .history2 {
+  font-size:30px;
+  font-family: "Century Schoolbook";
+  color: #5a7bdd;
+  width: 550px;
+  height: 620px;
+  background-color: black;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 240px;
+  margin-right: auto;
+  margin-bottom: 200px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 50px;
+}
+
+    .history3 {
+  font-size:30px;
+  font-family: "Century Schoolbook";
+  color: #5a7bdd;
+  width: 550px;
+  height: 170px;
+  background-color: black;
+  text-align: center;
+  margin-top: -860px;
+  margin-left: auto;
+  margin-right: 240px;
+  margin-bottom: 50px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 50px;
+}
+
+    .history4 {
+  font-size:30px;
+  font-family: "Century Schoolbook";
+  color: #5a7bdd;
+  width: 550px;
+  height: 320px;
+  background-color: black;
+  text-align: center;
+  margin-top: 85px;
+  margin-left: auto;
+  margin-right: 240px;
+  margin-bottom: 100px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 50px;
+}
+	
+	.history5{
+ font-size:30px;
+  font-family: "Century Schoolbook";
+  color: #faed27;
+  width: 1400px;
+  height: 160px;
+  background-color: black;
+  text-align: center;
+  margin: 0px auto;
+  padding: 20px 20px 20px 20px;
+  border-radius: 50px;
+}
+	
+   .history6 {
+  font-size:30px;
+  font-family: "Century Schoolbook";
+  color: #5a7bdd;
+  width: 550px;
+  height: 300px;
+  background-color: black;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 240px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 50px;
+}
+
+  .history7 {
+  font-size:30px;
+  font-family: "Century Schoolbook";
+  color: #5a7bdd;
+  width: 550px;
+  height: 500px;
+  background-color: black;
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 240px;
+  margin-right: auto;
+  margin-bottom: none;
+  padding: 20px 20px 20px 20px;
+  border-radius: 50px;
+}
+
+   .history8 {
+  font-size:30px;
+  font-family: "Century Schoolbook";
+  color: #5a7bdd;
+  width: 550px;
+  height: 250px;
+  background-color: black;
+  text-align: center;
+  margin-top: -915px;
+  margin-left: auto;
+  margin-right: 240px;
+  margin-bottom: 0px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 50px;
+}
+
+.history9 {
+  font-size:30px;
+  font-family: "Century Schoolbook";
+  color: #5a7bdd;
+  width: 550px;
+  height: 550px;
+  background-color: black;
+  text-align: center;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: 240px;
+  margin-bottom: 100px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 50px;
+}
+
+	.history10{
+ font-size:30px;
+  font-family: "Century Schoolbook";
+  color: #faed27;
+  width: 1400px;
+  height: 160px;
+  background-color: black;
+  text-align: center;
+  margin: 0px auto;
+  padding: 20px 20px 20px 20px;
+  border-radius: 50px;
+}
+ 
+   .history11 {
+  font-size:30px;
+  font-family: "Century Schoolbook";
+  color: #5a7bdd;
+  width: 550px;
+  height: 350px;
+  background-color: black;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 240px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 50px;
+}
+    .history12 {
+  font-size:30px;
+  font-family: "Century Schoolbook";
+  color: #5a7bdd;
+  width: 550px;
+  height: 200px;
+  background-color: black;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 240px;
+  margin-right: auto;
+  margin-bottom: none;
+  padding: 20px 20px 20px 20px;
+  border-radius: 50px;
+}
+
+  .Magier {
+	width : 550px; 
+	height : 700px;
+	background-color: none;
+    border-radius: 50px;
+	text-align: center;
+    margin-top: -800px;
+    margin-left: 940px;
+	margin-right: auto;
+    margin-bottom: 100px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 50px;
+}
+
+    .history13 {
+  font-size:30px;
+  font-family: "Century Schoolbook";
+  color: #5a7bdd;
+  width: 550px;
+  height: 550px;
+  background-color: black;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 240px;
+  margin-right: auto;
+  margin-bottom: none;
+  padding: 20px 20px 20px 20px;
+  border-radius: 50px;
+}	  
+
+   .history14 {
+  font-size:30px;
+  font-family: "Century Schoolbook";
+  color: #5a7bdd;
+  width: 550px;
+  height: 450px;
+  background-color: black;
+  text-align: center;
+  margin-top: -620px;
+  margin-left: auto;
+  margin-right: 240px;
+  margin-bottom: 0px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 50px;
+}
+
+	.history15{
+ font-size:40px;
+  font-family: "Century Schoolbook";
+  color: #faed27;
+  width: 1400px;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  margin: 200px auto 200px auto;
+  padding: 20px 20px 20px 20px;
+  border-radius: 50px;
+}
+
+.capabilities {
+  font-size:100px;
+  font-family: "Cambria";
+  color: #faed27;
+  width: 800px;
+  height: 140px;
+  background-color: black;
+  text-align: center;
+  margin: 200px auto;
+  padding: 20px auto;
+  border-radius: 50px;
+}
+
+ .capabilities1 {
+  font-size:30px;
+  font-family: "Century Schoolbook";
+  color: #faed27;
+  width: 770px;
+  height: 200px;
+  background-color: #0dd6e3;
+  text-align: center;
+  margin: 0px auto;
+  padding: 20px 20px 20px 20px;
+  border-radius: 100px;
+}
+
+    .capabilities2 {
+  font-size:30px;
+  font-family: "Century Schoolbook";
+  color: black;
+  width: 650px;
+  height: 650px;
+  background-color: #0dd6e3;
+  text-align: center;
+  margin-top: 130px;
+  margin-left: 140px;
+  margin-right: auto;
+  margin-bottom: none;
+  padding: 20px 20px 20px 20px;
+  border-radius: 500px;
+	}
+	
+ .capabilities3 {
+  font-size:30px;
+  font-family: "Century Schoolbook";
+  color: black;
+  width: 720px;
+  height: 720px;
+  background-color: #0dd6e3;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: 140px;
+  margin-bottom: 0px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 500px;
+	}
+	
+	
+  .capabilities4 {
+  font-size:30px;
+  font-family: "Century Schoolbook";
+  color: black;
+  width: 420px;
+  height: 420px;
+  background-color: #0dd6e3;
+  text-align: center;
+  margin-top: -80px;
+  margin-left: 240px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 500px;
+	}
+	
+ .capabilities5 {
+  font-size:30px;
+  font-family: "Century Schoolbook";
+  color: black;
+  width: 620px;
+  height: 620px;
+  background-color: #0dd6e3;
+  text-align: center;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: 340px;
+  margin-bottom: none;
+  padding: 20px 20px 20px 20px;
+  border-radius: 500px;
+	}
+
+ .capabilities6 {
+  font-size:35px;
+  font-family: "Century Schoolbook";
+  color: #faed27;
+  width: 500px;
+  height: 500px;
+  background-color: #0dd6e3;
+  text-align: center;
+  margin: 200px auto;
+  padding: 20px 20px 20px 20px;
+  border-radius: 500px;
+}	
